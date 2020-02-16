@@ -1,4 +1,4 @@
-//Bug №2 Zerro Unitest   
+//Bug №2 Zerro Unitest    but got 100pt
 function scholarship(arg) {
   [income, grade, minSalary] = [+arg[0], +arg[1], +arg[2]]
      stipendia = minSalary * 0.35
