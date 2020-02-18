@@ -1,6 +1,6 @@
 
 
-                //TODO
+                //TODO//
 
 function onTimeForTheExam(arg) {
   [hoursEx, minEx, hoursAr, minAr] = [arg[0], arg[1], arg[2], arg[3]]
