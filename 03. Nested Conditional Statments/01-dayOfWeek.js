@@ -12,4 +12,4 @@ function dayOfWeek(arg) {
   console.log(days.has(+arg) === true ? days.get(+arg) : "Error");
 }
 
-dayOfWeek(["7"]);
+//dayOfWeek(["7"]);
