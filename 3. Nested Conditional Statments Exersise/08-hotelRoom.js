@@ -1,9 +1,9 @@
 function hotelRoom(arg) {
-  let [mounth, days] = [arg[0], +arg[1]]
+  let [month, days] = [arg[0], +arg[1]]
   let priceStudio = 50;
   let priceApartment = 65;
 
-  switch (mounth) {
+  switch (month) {
     case 'May':
     case 'October':
       priceStudio = 50 * days;
