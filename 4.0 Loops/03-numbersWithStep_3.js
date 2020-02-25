@@ -3,5 +3,5 @@ function  numbersStep3 (arg) {
     console.log(i);
   }
 }
-numbersStep3(['10'])
-numbersStep3(['7'])
+//numbersStep3(['10'])
+//numbersStep3(['7'])
