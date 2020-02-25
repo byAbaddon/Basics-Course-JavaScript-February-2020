@@ -23,4 +23,5 @@ function cleverLily(arg) {
       console.log(`No! ${(total.toFixed(2))}`);
       };
 }
-cleverLily(['10', '170', '6']) 
+
+//cleverLily(['10', '170', '6']) 
