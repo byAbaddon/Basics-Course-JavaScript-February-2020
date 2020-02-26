@@ -4,8 +4,7 @@ function coins(arg) {
 
   for (const el of coins) {
     counter += ~~(money / el)
-    money %= el
-    money = +money.toFixed(2)
+    money = (money % el).toFixed(2)
   }
   console.log(counter);
 }
