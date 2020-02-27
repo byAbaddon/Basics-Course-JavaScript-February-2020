@@ -10,5 +10,4 @@ function specialNUmNumbers(arg) {
   }
   console.log(listSpecialNumbers.trim());
 }
-
 //specialNUmNumbers(['16'])
