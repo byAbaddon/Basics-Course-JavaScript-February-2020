@@ -13,7 +13,7 @@ function cleverLily(arg) {
    }; 
      toysCount *= toysPrice ;
   
-     let subtotal = (toysCount + (moneyCount / 2)) - brotherReket; // 550 + 33 -10 = 573
+     let subtotal = (toysCount + (moneyCount / 2)) - brotherReket;
      let total = Math.abs(subtotal - laundryPrice);
 
      if (subtotal >= laundryPrice ) {

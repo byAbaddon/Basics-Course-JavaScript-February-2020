@@ -11,5 +11,6 @@ function oddEvenSum(arg) {
   }
   console.log(evenSum === oddSum ? `Yes\nSum = ${evenSum}` : `No\nDiff = ${Math.abs(evenSum - oddSum)}`);
 }
+
 // oddEvenSum(['4', '10', '50', '60', '20'])
 // oddEvenSum(['4', '3', '5', '1', '-2'])
