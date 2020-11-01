@@ -1,3 +1,24 @@
+//[be black ninja]//
+function smartLily(...arg) {
+    let [age, washingMachinePrice, toyPrice] = [...arg]
+    let [toysCount, moneyFromBirthdays] = [0, 0]
+  
+    for(let i = 1; i <= age; i ++){
+        i % 2 == 1 ? toysCount++ : (moneyFromBirthdays += 10 * i / 2, moneyFromBirthdays--)
+    }
+
+    let money = moneyFromBirthdays + toyPrice * toysCount
+    return  money >= washingMachinePrice 
+    ? `Yes! ${(money - washingMachinePrice).toFixed(2)}`
+    : `No! ${(washingMachinePrice - money).toFixed(2)}`
+}
+
+// console.log(smartLily(10, 170.00, 6))
+// console.log(smartLily(21, 1570.98, 3))
+
+
+//-----------------------------------------------------(2)-------------second solution
+
 function cleverLily(arg) {
   [age, laundryPrice, toysPrice] = [+arg[0], +arg[1], +arg[2]]
    moneyCount = 0;
